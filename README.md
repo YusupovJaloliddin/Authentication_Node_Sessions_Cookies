@@ -6,3 +6,6 @@ To use this code do the following:
 3. Run npm install to install all the depends in this projects (express, express-session, mongoose, ejs, bcryptjs, connect-mongodb-session)
 4. Check inside of the config folder under the default.json for the mongodb URI and insert your own connection string 
 
+```
+Jaloliddin Yusupov
+```
