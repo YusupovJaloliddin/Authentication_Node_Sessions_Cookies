@@ -64,6 +64,7 @@ exports.register_post = async (req, res) => {
 
 exports.dashboard_get = (req, res) => {
   const username = req.session.username;
+  console.log(req.session);
   res.render("dashboard", { name: username });
 };
 
