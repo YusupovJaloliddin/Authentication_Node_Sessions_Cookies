@@ -31,6 +31,7 @@ exports.login_post = async (req, res) => {
 
   req.session.isAuth = true;
   req.session.username = user.username;
+  
   res.redirect("/dashboard");
 };
 
