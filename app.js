@@ -22,10 +22,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(
   session({
     secret: "secret",
+    key: "UserId",
     resave: true,
     saveUninitialized: false,
     cookie: {
-      expires: 10000,
+      expires: 1000 * 60 * 60 * 30,
     },
     store: store,
   })
